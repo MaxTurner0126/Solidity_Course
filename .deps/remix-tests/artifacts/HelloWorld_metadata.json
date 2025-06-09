@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "SayHello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/remix-tests/MyContract.sol": "HelloWorld"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/remix-tests/MyContract.sol": {
+			"keccak256": "0xbee9363b79674f05a739b15bddab879d46d219dda2907b649b3156c0c29dd05b",
+			"urls": [
+				"bzz-raw://0e3ff9062ddb887ccbb31f7a1fc9660bb995b44d5cc0d0ace34ed8e9caa72a57",
+				"dweb:/ipfs/QmT4fxyaC8WHDse7HK8yryEj5c79aM1JyhBMzAvgVxxeq4"
+			]
+		}
+	},
+	"version": 1
+}
