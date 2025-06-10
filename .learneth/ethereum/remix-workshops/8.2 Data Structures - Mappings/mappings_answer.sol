@@ -3,7 +3,6 @@ pragma solidity ^0.8.3;
 
 contract Mapping {
     // Mapping from address to uint
-    mapping(address => uint) public myMap;
     mapping(address => uint) public balances;
 
     function get(address _addr) public view returns (uint) {
